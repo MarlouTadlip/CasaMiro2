@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CasaMiro.frontend.props" />
+</Project>
