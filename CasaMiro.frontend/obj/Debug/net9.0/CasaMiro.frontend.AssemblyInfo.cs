@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CasaMiro.frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5d97b140bfb6e3823907ecfed153aca47fac3e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ce64c0ac50b889ab8a56262d63635f67af286cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CasaMiro.frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CasaMiro.frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

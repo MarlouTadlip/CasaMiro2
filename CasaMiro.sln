@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaMiro.frontend", "CasaMiro.frontend\CasaMiro.frontend.csproj", "{454A9C40-86D3-4EF5-AA3B-A0E6C69F6216}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaMiro", "CasaMiro.frontend\CasaMiro.csproj", "{454A9C40-86D3-4EF5-AA3B-A0E6C69F6216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

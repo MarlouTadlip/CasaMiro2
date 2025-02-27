@@ -10,56 +10,62 @@
 *.VC.db
 
 # Build artifacts
-bin/
-obj/
-out/
-TestResults/
+CasaMiro.frontend/bin/
+CasaMiro.frontend/obj/
+CasaMiro.frontend/out/
+CasaMiro.frontend/TestResults/
 
 # Blazor WebAssembly-specific
-wwwroot/dist/
-wwwroot/node_modules/
-wwwroot/css/*.map
-wwwroot/css/*.min.css
-wwwroot/js/*.map
-wwwroot/js/*.min.js
+CasaMiro.frontend/wwwroot/dist/
+CasaMiro.frontend/wwwroot/node_modules/
+CasaMiro.frontend/wwwroot/css/*.map
+CasaMiro.frontend/wwwroot/css/*.min.css
+CasaMiro.frontend/wwwroot/js/*.map
+CasaMiro.frontend/wwwroot/js/*.min.js
 
 # .NET dependencies
-*.dll
-*.exe
-*.pdb
-*.mdb
-*.log
-*.csproj.user
-project.lock.json
-project.fragment.lock.json
-*.nuget.cache
-*.nuget.props
-*.nuget.targets
+CasaMiro.frontend/*.dll
+CasaMiro.frontend/*.exe
+CasaMiro.frontend/*.pdb
+CasaMiro.frontend/*.mdb
+CasaMiro.frontend/*.log
+CasaMiro.frontend/*.csproj.user
+CasaMiro.frontend/project.lock.json
+CasaMiro.frontend/project.fragment.lock.json
+CasaMiro.frontend/*.nuget.cache
+CasaMiro.frontend/*.nuget.props
+CasaMiro.frontend/*.nuget.targets
 
 # NuGet Packages
-packages/
-.nuget/
-**/packages/*
-!**/packages/build/
-!**/packages/repositories.config
+CasaMiro.frontend/packages/
+CasaMiro.frontend/.nuget/
+CasaMiro.frontend/**/packages/*
+!CasaMiro.frontend/**/packages/build/
+!CasaMiro.frontend/**/packages/repositories.config
 
 # Entity Framework
-Migrations/
-Database.mdf
-Database_log.ldf
+CasaMiro.frontend/Migrations/
+CasaMiro.frontend/Database.mdf
+CasaMiro.frontend/Database_log.ldf
 
 # Rider / JetBrains
-.idea/
-*.sln.iml
+CasaMiro.frontend/.idea/
+CasaMiro.frontend/*.sln.iml
 
 # Node.js (if using npm for frontend)
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-pnpm-lock.yaml
+CasaMiro.frontend/node_modules/
+CasaMiro.frontend/npm-debug.log
+CasaMiro.frontend/yarn-error.log
+CasaMiro.frontend/package-lock.json
+CasaMiro.frontend/pnpm-lock.yaml
 
 # Secrets and config files
-appsettings.Development.json
-appsettings.Local.json
-secrets.json
+CasaMiro.frontend/appsettings.Development.json
+CasaMiro.frontend/appsettings.Local.json
+CasaMiro.frontend/secrets.json
+
+# Debug and build-generated files
+CasaMiro.frontend/obj/Debug/net9.0/*.AssemblyInfo.cs
+CasaMiro.frontend/obj/Debug/net9.0/*.AssemblyInfoInputs.cache
+CasaMiro.frontend/obj/Debug/net9.0/*.assets.cache
+CasaMiro.frontend/obj/Debug/net9.0/*.GeneratedMSBuildEditorConfig.editorconfig
