@@ -1,0 +1,65 @@
+# Visual Studio-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.cache
+*.sln.docstates
+*.VC.db
+
+# Build artifacts
+bin/
+obj/
+out/
+TestResults/
+
+# Blazor WebAssembly-specific
+wwwroot/dist/
+wwwroot/node_modules/
+wwwroot/css/*.map
+wwwroot/css/*.min.css
+wwwroot/js/*.map
+wwwroot/js/*.min.js
+
+# .NET dependencies
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+*.csproj.user
+project.lock.json
+project.fragment.lock.json
+*.nuget.cache
+*.nuget.props
+*.nuget.targets
+
+# NuGet Packages
+packages/
+.nuget/
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Entity Framework
+Migrations/
+Database.mdf
+Database_log.ldf
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Node.js (if using npm for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Secrets and config files
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
